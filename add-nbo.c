@@ -3,6 +3,10 @@
 #include <netinet/in.h>
 
 int main(int argc, char* argv[]){
+	char name[] = "조은영";
+	char mobile[] = "0776";
+	printf("[bob11]add-nbo[%s%s]\n", name, mobile);
+	
 	FILE *fp1, *fp2;
 	fp1 = fopen(argv[1], "rb");
 	fp2 = fopen(argv[2], "rb");
